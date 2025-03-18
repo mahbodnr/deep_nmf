@@ -1,0 +1,11 @@
+{
+    "loss_mode": 0,
+    "loss_coeffs_mse": 0.5,
+    "loss_coeffs_kldiv": 1.0,
+    "lr_limit": 1e-9,
+    "lr_initial_neuron_a": 0.01,
+    "lr_initial_neuron_b": 0.001,
+    "lr_initial_norm": 0.001,
+    "lr_initial_batchnorm2d": 0.001,
+    "number_of_epoch": 500
+}

@@ -1,0 +1,13 @@
+{
+    // "CIFAR10", "FashionMNIST", "MNIST"
+    "dataset": "CIFAR10",
+    "batch_size_train": 50,
+    "batch_size_test": 50,
+    // Data augmentation 
+    "flip_p": 0.5,
+    "jitter_brightness": 0.5,
+    "jitter_contrast": 0.1,
+    "jitter_saturation": 0.1,
+    "jitter_hue": 0.15,
+    "da_auto_mode": false
+}

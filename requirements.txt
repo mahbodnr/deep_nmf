@@ -1,0 +1,7 @@
+argh==0.31.3
+jsmin==3.0.1
+matplotlib==3.10.1
+numpy==2.2.4
+tensorboard==2.18.0
+torch==2.5.1
+torchvision==0.21.0

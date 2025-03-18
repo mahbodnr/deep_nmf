@@ -1,0 +1,232 @@
+{
+    // Number of NNMF iterations
+    "iterations": 20,
+    "epsilon": "None",
+    "number_of_neurons_a": [
+        32,
+        64,
+        96,
+        10
+    ],
+    "number_of_neurons_b": [
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "kernel_size_conv": [
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "stride_conv": [
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "padding_conv": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "dilation_conv": [
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "kernel_size_pool": [
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ]
+    ],
+    "stride_pool": [
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            2
+        ],
+        [
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1
+        ]
+    ],
+    "padding_pool": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "dilation_pool": [
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    // 0 == No pooling, 1 = Average Pooling, 2 = Max Pooling, 3 == Perceptron, 4 == NNMF
+    "type_of_pooling": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "local_learning": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "local_learning_kl": [
+        false,
+        false,
+        false,
+        false
+    ],
+    // NNMF:
+    "local_learning_pooling": [
+        false,
+        false,
+        false,
+        false
+    ],
+    // NNMF:
+    "local_learning_use_kl_pooling": [
+        false,
+        false,
+        false,
+        false
+    ],
+    // 1 == NNMF, 2 == Perceptron
+    "type_of_neuron_a": [
+        1,
+        1,
+        1,
+        1
+    ],
+    // 0 = None, 1 == NNMF, 2 == Perceptron, 3 == Positive Perceptron
+    "type_of_neuron_b": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "batch_norm_neuron_a": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "batch_norm_neuron_b": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "bias_norm_neuron_a": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "bias_norm_neuron_b": [
+        true,
+        true,
+        true,
+        true
+    ]
+}
